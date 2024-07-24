@@ -1,0 +1,111 @@
+nav{
+    width: 100%;
+    display: flex;
+    align-self: start;
+    justify-content:space-between;
+    padding: 10px;
+    background-color: rgba(73, 226, 43, 0.329);
+    position:fixed;
+    z-index: 10px;
+}
+#title{
+    display: flex;
+    justify-self: center;
+    align-self:center;
+    padding: 0px 85px;
+    color:rgba(112, 23, 139, 0.829);
+    font-family: cursive;
+}
+
+#links{
+    display: inline-flex;
+    padding: 0px 85px;
+    justify-content: space-between;
+    align-self:center;
+    width: 580px;
+}
+li{
+    display: inline;
+}
+a{
+    text-decoration-line: none;
+    color:rgba(112, 23, 139, 0.829);
+    font-size: large;
+    font-family: cursive;
+}
+#search{
+    border-radius: 50px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+#searchButton{
+    width: 60px;
+    background-color: rgba(112, 23, 139, 0.829);
+    color: white;
+    border-top-right-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    font-family: cursive;
+}
+#searchArea{
+    display: flex;
+}
+#intro{
+    position: relative;
+    top: 93px;
+    background-color: rgba(75, 192, 46, 0.24);
+    height: 800px;
+}
+#getStarted{
+    position: relative;
+    top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#getStarted p{
+    font-size: 25px;
+    color: rgba(100, 15, 82, 0.918);
+    width: 1100px;
+}
+#getStartedlink{
+    border-radius: 50px ;
+    width: 200px;
+    padding-left: 15px;
+    font-size: 30px;
+    background-color: rgba(112, 23, 139, 0.829);
+    color: azure;
+    border: 2px solid black;
+}
+#getStartedlink:hover{
+    color:rgba(112, 23, 139, 0.829); ;
+    background-color: rgba(75, 192, 46, 0.24);
+    border: 2px solid black;
+}
+.logo1{
+	width:250px;
+	height:450px;
+	background-size: cover;
+	background-image: url('/Purpel-music-note-icon-on-transparent-background-PNG.png');
+    mix-blend-mode:overlay;
+}
+#logo{
+    position: relative;
+    top: 15px;
+    right: 5px;
+    width: 20px;
+    height: 40px;
+	background-size: cover;
+	background-image: url('/Purpel-music-note-icon-on-transparent-background-PNG.png');
+    mix-blend-mode:overlay;
+}
+.footer {
+    position: relative;
+    top:70px;
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+

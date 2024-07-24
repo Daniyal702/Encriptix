@@ -1,0 +1,309 @@
+.div1{
+    width: 100%;
+    height: 500px;
+    color:#fff;
+    background-color: rgb(213 210 227);
+    font-family: sans-serif;
+}
+h3{
+   display: inline; 
+}
+nav{
+
+    z-index: 10;;
+    position: fixed;
+    top: 5px;
+    background-color: rgb(213 210 227);
+    width: 99%;
+    display: inline-flex;
+    justify-content: space-evenly;
+}
+nav h3{
+    position: absolute;
+    top: -9px;
+    left: 41px;
+}
+
+nav ul{
+    display: inline-flex;
+    justify-content: space-between;
+    width: 300px;
+    margin-left: -590px;
+}
+nav span{
+    position: absolute;
+    top: 10px;
+    right: 23px;
+    font-size: 20px;
+}
+nav li{
+    
+   
+    display: inline; 
+    list-style: none;
+    color: #252230;
+}
+.div2{
+    overflow: hidden;
+    width: 100%;
+    height: 1000px;
+    background-color: #252230;
+}
+.container{
+
+    overflow: hidden;
+    height: 450px;
+    
+}
+.div3{
+    
+        width: 400px;
+        height: 400px;
+}
+.div4{
+    display: inline-block;
+    width: 444px;
+    height: 444px;
+    border-radius: 50%;
+    background-color:#b9b6c5;
+    margin: 50px 440px;
+}
+.pic{
+    WIDTH: 500px;
+    margin: 0px 446px;
+}
+h2{
+    color: #252230;
+    font-size: 32px;
+    
+}
+h1{
+    font-size: 72px;
+    margin: 10px 0px;
+    margin-top: -23px;
+}
+.line{
+    height: 2px;
+    
+    width:250px ;
+    background-color: rgba(255, 255, 0, 0.516);
+}
+div.para{
+    display: inline-block;
+    color: #252230;
+   
+    width: 250px;
+}
+.mypic{
+    position: relative;
+    z-index: 1;
+    height:449px ;
+}
+
+.services{
+    width: 295px;
+    display: inline-block;
+    position: absolute;
+    top: 170px;
+    right: 15px;
+}
+
+.link ul{
+    width: 250px;
+    display: flex;
+    justify-content:space-evenly;
+    margin-left: -70px;
+    font-size: 27px;
+}
+
+.link a{
+    text-decoration: none;
+    color: rgba(255, 255, 0, 0.516);
+    transition: all 0.5s ease-in-out;
+}
+
+.link a:hover{
+    color: #252230;
+    font-size: 40px;
+}
+.nav li:hover{
+    color: #fff;
+}
+
+.content-left{
+    width: 730px;
+    height: 339px;
+    margin: -421px 66px;
+}
+
+.work{
+    z-index: 2;
+    background-color:  rgb(169, 167, 181);
+    width: 70%;
+    height: 100px;
+    margin-top: -1448px;
+    margin-left: 190px;
+    box-shadow: 0px 0px 7px 3px #000;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.work div{
+    background-color: #726e81;
+    width: 182px;
+    height: 41px;
+}
+
+div .google{
+    width: 64%;
+    margin: 0px 29px;
+}
+
+div .meta{
+    width: 70%;
+    margin: -15px 26px;
+}
+
+div .linkdin{
+    width: 70%;
+    margin: 2px 29px;
+}
+
+div .slack{
+    width: 70%;
+    margin: -4px 27px;
+}
+
+div .container2{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 75px;
+}
+
+.part1{
+    width: 300px;
+}
+.part1 p{
+    color: #b9b6c5;
+}
+
+.d250,.d100,.d10,.d30 {
+    display: inline-block;
+}
+
+.part1 h3{
+    color: yellow;
+    font-size: 30px;
+}
+
+.d100{
+    margin-left: 15px;
+}
+
+.d10{
+    margin-left: 50px;
+}
+
+.part2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 500px;
+    margin-top: 55px;
+}
+
+.part2 div{
+    margin-left: 10px;
+    position: relative;
+}
+
+.part2 img{
+    width: 150px;
+    height: 89px;
+}
+
+.part2 h3{
+    
+    color: #fff;
+}
+
+.part2 p{
+    color: #b9b6c5;
+}
+
+.part2 i{
+    position:absolute;
+    right: 12px;
+    top: 28px;
+    color:yellow ;
+}
+.part2 img,.part2 div,.part2 i{
+    display: inline-block;
+}
+
+.part2 img{
+    margin: -21px 0px;
+}
+
+.part3{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.part3 div{
+    background-color: #726e81;
+    width: 300px;
+    height: 300px;
+    padding:16px 24px;
+    transition: all 0.5s ease-in-out ;
+}
+
+.part3 h2{
+    color: #fff;
+}
+
+.part3 i{
+    color: yellow;
+}
+
+.part3 p{
+    color: #b9b6c5;
+}
+
+.fa-mobile-screen{
+    font-size: 26px;
+}
+
+.part3 div:hover{
+    transform: scale(1.1);
+    padding: 16px 24px;
+    box-shadow: 0px 0px 10px 1px #000 ;
+}
+
+#project{
+    background-color: #b9b6c5;
+    height: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-self:self-end;
+}
+
+.project{
+    display: block;
+    position: relative;
+    top:10px;
+}
+
+.project H1{
+    color: yellow;
+}
+
+.project a{
+    text-decoration: none;
+    background-color: #b9b6c5;
+    color:yellow;
+    padding-left: 30px;
+}
